@@ -60,7 +60,7 @@ jobs:
           node-version: '18'
 
       - name: Install Snyk CLI
-        uses: snyk/actions/setup@v2   # ✅ correct version
+        uses: snyk/actions/setup@2bd2dff16c0daac8285d5f0ca48fedb7e9573cc4
 
       - name: Authenticate Snyk Token
         env:
